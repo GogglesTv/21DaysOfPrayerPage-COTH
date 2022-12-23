@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale-1"
+    />
+    <title>21 Days of Prayer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="text-light">
+      <section class="container mb-5 py-5 header">
+        <div class="row fs-4 fw-bold">
+          <div class="col ps-0">About</div>
+          <div id="headerMiddle" class="col-4 col-sm-6 text-center">
+            21 Days of Prayer
+          </div>
+          <div class="col text-end pe-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="container py-5 my-5">
+      <div class="row">
+        <div class="col-xxl ps-0 col-sm-12 pb-sm-5">
+          <div
+            id="prayerDates"
+            class="card p-5 text-light p-md-4 ps-md-5"
+            style="height: 45rem; background-color: green"
+          >
+            <h1 class="card-title pt-5 pt-md-4 pt-sm-0">January 8-28, 2023</h1>
+            <div class="card-body px-0">
+              <div class="card-text fs-2 fw-light text-left">
+                Join us as we intentionally seek God in prayer and believe for
+                Him to move in powerful ways.
+              </div>
+            </div>
+            <div class="row pb-5">
+              <div class="row fs-4 fw-bold text-left ps-md-4">
+                Weekdays: 6:00am Central
+                <div class="row fs-4 fw-bold text-left"></div>
+                Saturday: 9:00am Central
+                <div class="row fs-4 fw-bold text-left"></div>
+                Sunday: Find a Service Time
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl pe-0 col-sm-12 ps-sm-0">
+          <div class="container">
+            <div class="row">
+              <!-- I couldn't pull the picture on the website so grabbed this one online-->
+              <img
+                src="./images/21dop-graphic.jpeg"
+                class="px-0"
+                style="height: 45rem"
+                alt=""
+                id="prayerGuide"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5 my-5 align-items-center text-light">
+      <div class="row text-center justify-content-center">
+        <div class="col fs-2">Find a Local Campus Near You</div>
+        <div class="pt-4">
+          <div class="col">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-pin-map-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row pt-5 justify-content-xxl-center me-xxl-5">
+            <div id="campusSelect" class="col-6 me-xxl-4">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-warning dropdown-toggle fw-bold fs-4"
+                  style="width: 30rem; height: 3rem"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Select a Campus
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Grants Mill</a></li>
+                  <li><a class="dropdown-item" href="#">Greystone</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Grandview</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5 my-5">
+      <div class="row">
+        <div class="col offset-lg-3">
+          <img
+            id="liftedHands"
+            src="./images/prayer-liftedHands.jpeg"
+            class="mx-xxl-5"
+            alt=""
+          />
+        </div>
+        <div class="col offset-xl-7 offset-lg-5 pt-0 rounded">
+          <img
+            id="aisle"
+            src="./images/prayer-aisle.jpeg"
+            class="mx-xxl-auto"
+            alt=""
+          />
+        </div>
+        <div class="col offset-xl-1 offset-lg-0">
+          <img id="stage" src="./images/prayer-stage.jpeg" class="" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="appContainer" class="container my-5 py-5 bg-info">
+      <div class="row p-xxl-5 p-xxl-4 p-lg-0">
+        <div id="phoneContainer" class="col-4 ps-xxl-2 ps-lg-0 me-lg-2">
+          <img id="phone" src="./images/phone-demo.png" alt="" />
+        </div>
+        <div class="col-4">
+          <div id="appInfo" class="container">
+            <div id="appTop" class="row align-items-center pb-5">
+              <div class="col-4 ps-0">
+                <img id="prayFirst" src="./images/pray-first.png" alt="" />
+              </div>
+              <div class="col-4 offset-xxl-1 col-md-2">
+                <button
+                  type="button"
+                  id="appStores"
+                  class="btn btn-dark btn-lg"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-apple"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                    />
+                    <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                    />
+                  </svg>
+                  App Store
+                </button>
+                <button
+                  type="button"
+                  id="appStores"
+                  class="btn btn-dark btn-lg mt-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-google-play"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                    />
+                  </svg>
+                  App Store
+                </button>
+              </div>
+            </div>
+            <div class="appDescAndTitle">
+              <div id="appDescriptionTitle" class="row pt-5 mt-5">
+                <h4 class="fw-bold ps-0">Download the app</h4>
+              </div>
+              <div id="appDescription" class="row fs-xl-4 d-flex-lg flex-wrap">
+                Within the Pray First App, you can access guided prayer plans,
+                create a personal prayer list, and listen to exclusive Highlands
+                Worship albums. Now available to download in your app store.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pt-5 mt-5 text-light">
+      <div class="row text-center">
+        <div class="col">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            fill="currentColor"
+            class="bi bi-1-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="row display-4 text-center pt-3">
+        <div class="col">
+          Prayer is the best response, and our first resort.
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5 py-5">
+      <div class="row">
+        <div class="col-xxl p-xxl-0 ms-xxl-0 me-xxl-4 col-sm-12 mb-sm-5">
+          <div class="card bg-warning h-100" style="width: 100%">
+            <div class="card-body py-5 px-5 me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-eye-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                <path
+                  d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"
+                />
+              </svg>
+              <p class="card-title pt-5 fw-bold fs-5">View Prayer Resources</p>
+              <p class="card-title py-3 fs-5">
+                Download and follow along with Biblical models of prayer and
+                personal prayer guides.
+              </p>
+              <p class="card-title fs-5">
+                Watch past messages about strengthening your personal prayer
+                life to pray intentionally and more effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl p-xxl-0 ms-xxl-0 me-xxl-4 col-sm-12 mb-sm-5">
+          <div class="card bg-warning h-100" style="width: 100%">
+            <div class="card-body py-5 px-5 me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-send-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"
+                />
+              </svg>
+              <p class="card-title pt-5 fw-bold fs-5">
+                Submit a Prayer Request
+              </p>
+              <p class="card-title py-3 fs-5">
+                We would be honored to pray with you. Tell us how we can stand
+                in agreement with you during this season.
+              </p>
+              <p class="card-title fs-5">
+                You&#8217;ll have the option to keep your request confidential
+                or share with our Prayer Team.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl p-xxl-0 ms-xxl-0 me-xxl-0 col-sm-12 h-100">
+          <div class="card bg-warning h-100" style="width: 100%">
+            <div class="card-body py-5 px-5 me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-patch-question-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"
+                />
+              </svg>
+              <p class="card-title pt-5 fw-bold fs-5">Learn About Fasting</p>
+              <p class="card-title py-3 fs-5">
+                At Highlands, we encourage fasting for 21 days each year in the
+                month of January.
+              </p>
+              <p class="card-title fs-5">
+                The goal of fasting is to draw nearer to God. Read our resources
+                on fasting to prepare you for the upcoming prayer season.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-dark">
+      <section class="container py-5 mt-5">
+        <div class="row py-5">
+          <div id="footerLeft" class="col col-2">
+            <div class="row pt-5">
+              <div id="logo" class="col p-0">
+                <svg
+                  width="52"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 557 392"
+                  class="logo"
+                >
+                  <path
+                    class="cls-1"
+                    d="M463.2 205.39c-169.13-16-217.13 182.84-413 63.06L.29 341.92C205.9 476.56 338.14 289.1 556.71 343Z"
+                  ></path>
+                  <path
+                    class="cls-1"
+                    d="M234.6 269.66a61.83 61.83 0 1 1 103.28-59.34c33.63-18.4 72.67-28.66 111.1-25.86L349.64 38.24c-34.31-50.51-108.74-50.51-143 0L62.2 250.79c97.86 67.5 172.66 19.13 172.4 18.87ZM336 151.63a11.62 11.62 0 0 1 1.92-1.92l33.2-26.12a6.45 6.45 0 0 1 9.06 9.06L354 165.84a11.41 11.41 0 0 1-7.67 4.3 10.64 10.64 0 0 1-1.38.08 11.48 11.48 0 0 1-9-18.59Zm-69.26-21.95 5-41.94a6.51 6.51 0 0 1 7.17-5.64 6.42 6.42 0 0 1 5.65 5.64l5 41.94a11.48 11.48 0 0 1-10 12.77 12.59 12.59 0 0 1-1.37.08 11.51 11.51 0 0 1-11.4-10.13 12.28 12.28 0 0 1-.08-2.72Zm-89.53-6.1a6.44 6.44 0 0 1 8 0l33.19 26.13a11.48 11.48 0 0 1-5.74 20.43 10.9 10.9 0 0 1-1.39.08 11.39 11.39 0 0 1-7.08-2.46 12 12 0 0 1-1.92-1.92l-26.13-33.2a6.47 6.47 0 0 1 1.04-9.06Zm-36.97 95.62 41.94-5a11.49 11.49 0 1 1 2.73 22.8 11.66 11.66 0 0 1-1.34.07 12.88 12.88 0 0 1-1.38-.07l-41.94-5a6.45 6.45 0 0 1 0-12.81Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <button
+                type="button"
+                id="contactUs"
+                class="btn btn-dark btn-lg mt-3 fw-bold"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <div id="footerMiddle" class="col ps-xxl-5 col-sm-8">
+            <div class="row">
+              <div class="fa-fw fs-5 mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  ></path>
+                </svg>
+                About Fasting
+              </div>
+              <div class="fa-fw fs-5 mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  ></path>
+                </svg>
+                Prayer Resources
+              </div>
+              <div class="fa-fw fs-5 mb-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  ></path>
+                </svg>
+                Watch Messages
+              </div>
+              <div class="fa-fw fs-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  ></path>
+                </svg>
+                Submit Prayer Request
+              </div>
+            </div>
+          </div>
+          <div id="footerRight" class="col p-xxl-0 ps-sm-5">
+            <div class="row fw-bold fs-5 ms-4 ps-1">Download Pray First</div>
+            <div class="fs-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="50"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+                id="arrow"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                ></path>
+              </svg>
+              iOS App
+            </div>
+            <div class="fs-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="50"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                ></path>
+              </svg>
+              Android App
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
