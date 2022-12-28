@@ -14,12 +14,9 @@ img.pray {
   height: auto;
 }
 
-select.form-select {
-  border-radius: 50px;
-}
-
-div#campusSelect {
-  padding-left: 14rem;
+.btn#campusSelect {
+  border-radius: 100px;
+  width: 40rem;
 }
 
 #liftedHands {
@@ -43,15 +40,6 @@ div#campusSelect {
   border-radius: 15px;
 }
 
-#appContainer {
-  background-color: white;
-  padding: 5rem;
-}
-
-#phoneContainer {
-  margin-right: -2rem;
-}
-
 #phone {
   height: 600px;
   width: 300px;
@@ -60,11 +48,6 @@ div#campusSelect {
 #prayFirst {
   height: 150px;
   width: 150px;
-}
-
-.btn {
-  border-radius: 100px;
-  width: 15rem;
 }
 
 #contactUs {
@@ -77,18 +60,11 @@ div#campusSelect {
   width: 500px;
 }
 
-#prayFirst {
-  height: 150px;
-  width: 150px;
-  margin-left: 1rem;
-}
-
 #appStores {
   height: 50px;
   width: 250px;
   font-size: 20px;
   border-radius: 3rem;
-  margin-left: 3rem;
 }
 
 #appDescriptionTitle h4 {
@@ -124,30 +100,17 @@ button.btn:hover {
   transition: 0.4s;
 }
 
-#footerMiddle,
 #footerRight {
-  margin-left: 5rem;
-}
-
-#footerRight {
-  margin-left: -30rem;
+  margin-left: -15rem;
 }
 
 @media screen and (max-width: 1200px) {
-  .appDescAndTitle {
-    margin-left: 2rem;
-  }
-
-  #appTop {
-    margin-left: 0.3rem;
+  .btn#campusSelect {
+    margin-left: -4rem;
   }
 
   #appDescription {
     width: 500px;
-  }
-
-  div#campusSelect {
-    padding-left: 8.5rem;
   }
 
   #aisle {
@@ -159,16 +122,11 @@ button.btn:hover {
   #logo {
     margin-left: -1rem;
   }
-
-  #footerRight {
-    margin-left: 35rem;
-    margin-top: -11.8rem;
-  }
 }
 
 @media screen and (max-width: 992px) {
-  div#campusSelect {
-    margin-left: -0.4rem;
+  .btn#campusSelect {
+    margin-left: -8rem;
   }
 
   #liftedHands {
@@ -189,43 +147,18 @@ button.btn:hover {
     margin: 2rem 0rem 0rem 12rem;
   }
 
-  #phoneContainer {
-    margin-right: -10rem;
-  }
-
   #phone {
-    height: 400px;
-    width: 200px;
-    margin-left: -3.5rem;
-  }
-
-  #appInfo {
-    margin-left: -3rem;
-  }
-
-  #appTop {
-    height: 75px;
-    width: 75px;
-    margin-left: 10rem;
+    height: 500px;
+    width: 250px;
   }
 
   #prayFirst {
-    height: 110px;
-    width: 110px;
-    margin-left: 1rem;
+    height: 130px;
+    width: 130px;
   }
 
   #appStores {
-    height: 50px;
     width: 200px;
-    border-radius: 3rem;
-    margin-left: 8.5rem;
-  }
-
-  .appDescAndTitle {
-    padding: 1.5rem;
-    margin-left: 10rem;
-    margin-top: -3rem;
   }
 
   #appDescription {
@@ -234,27 +167,20 @@ button.btn:hover {
     font-size: 20px;
   }
 
-  #contactUs {
-    font-size: 15px;
-  }
-
-  #footerMiddle {
-    margin-left: 2rem;
-  }
-
   #footerRight {
-    margin-left: 27rem;
-    margin-top: -11.8rem;
+    margin-left: -15rem;
+    width: 300px;
+  }
+
+  #arrow {
+    display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #prayerGuide {
-    border-radius: 1.5rem;
-  }
-
-  div#campusSelect {
-    padding-left: 2.2rem;
+  .btn#campusSelect {
+    border-radius: 100px;
+    width: 35rem;
   }
 
   #liftedHands {
@@ -286,13 +212,13 @@ button.btn:hover {
   }
 
   #appInfo {
-    margin-left: -1rem;
+    margin-left: -11rem;
   }
 
   #appTop {
     height: 75px;
     width: 75px;
-    margin-left: 10rem;
+    margin-left: 8.5rem;
   }
 
   #prayFirst {
@@ -305,13 +231,12 @@ button.btn:hover {
     height: 50px;
     width: 150px;
     border-radius: 3rem;
-    margin-left: 6.5rem;
+    margin-left: 8rem;
   }
 
   .appDescAndTitle {
     padding: 1.5rem;
-    margin-left: 10rem;
-    margin-top: -3rem;
+    margin-left: 8.5rem;
   }
 
   #appDescriptionTitle {
@@ -329,23 +254,58 @@ button.btn:hover {
     width: 145px;
   }
 
-  #footerMiddle {
-    margin-left: 12rem;
-    margin-top: -15rem;
-  }
-
   #footerRight {
-    margin-left: 10rem;
-    margin-top: -1rem;
+    margin-left: 13rem;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #headerMiddle {
-    width: 15rem;
+  .btn#campusSelect {
+    width: 30rem;
+    margin-left: 0px;
   }
 
-  div#campusSelect {
-    padding-left: -0rem;
+  #phone {
+    display: none;
+    margin-bottom: 0;
+  }
+
+  #appInfo {
+    margin-left: -1rem;
+  }
+
+  #appTop {
+    height: 75px;
+    width: 75px;
+    margin-left: 8.5rem;
+  }
+
+  #prayFirst {
+    height: 150px;
+    width: 150px;
+    margin-left: -8rem;
+  }
+
+  #appStores {
+    height: 60px;
+    width: 225px;
+    font-size: 24px;
+    border-radius: 3rem;
+    margin-left: 3rem;
+  }
+
+  .appDescAndTitle {
+    margin-left: 0rem;
+    padding-bottom: 0;
+  }
+
+  #appDescriptionTitle {
+    width: 400px;
+  }
+
+  #appDescription {
+    height: 200px;
+    width: 500px;
+    font-size: 22px;
   }
 }
