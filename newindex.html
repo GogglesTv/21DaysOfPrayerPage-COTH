@@ -20,11 +20,11 @@
     <header class="text-light">
       <section class="container mb-5 py-5 header">
         <div class="row fs-4 fw-bold">
-          <div class="col ps-0">About</div>
-          <div id="headerMiddle" class="col-4 col-sm-6 text-center">
+          <div class="col ps-0 pe-3">About</div>
+          <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
             21 Days of Prayer
           </div>
-          <div class="col text-end pe-0">
+          <div class="col text-end p-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -45,7 +45,7 @@
 
     <section class="container py-5 my-5">
       <div class="card-group">
-        <div class="col-xl me-xl-3 ps-0 col-sm-12 pb-5">
+        <div class="col-sm-12 col-xl me-xl-3 ps-0 pb-5">
           <div
             id="prayerDates"
             class="card p-5 text-light p-md-4 ps-md-5"
@@ -69,7 +69,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl ms-xl-3 pe-0 col-sm-12 ps-sm-0">
+        <div class="col-sm-12 col-xl ms-xl-3 pe-0 ps-sm-0">
           <div class="container">
             <div class="row">
               <!-- I couldn't pull the picture on the website so grabbed this one online-->
@@ -172,15 +172,17 @@
             id="appInfo"
             class="container ms-sm-0 ps-sm-0 ms-md-5 ps-md-2 ms-lg-5 ps-lg-4"
           >
-            <div id="appTop" class="row pb-5">
-              <div class="col-3 mt-md-0 ps-0">
+            <div id="appTop" class="row pb-5 mb-0">
+              <div class="col-12 col-sm-3 mt-md-0 ps-0">
                 <img id="prayFirst" src="./images/pray-first.png" alt="" />
               </div>
-              <div class="col-3 pt-xl-2 pt-md-1 ps-lg-5 ms-md-5 ms-sm-2">
+              <div
+                class="col-12 col-sm-3 pt-md-1 pt-xl-2 ps-lg-5 ms-sm-2 ms-md-5"
+              >
                 <button
                   type="button"
                   id="appStores"
-                  class="btn btn-dark btn-lg"
+                  class="btn btn-dark btn-sm btn-sm-lg"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +204,7 @@
                 <button
                   type="button"
                   id="appStores"
-                  class="btn btn-dark btn-lg mt-3"
+                  class="btn btn-dark btn-sm btn-sm-lg mt-3"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -220,7 +222,7 @@
                 </button>
               </div>
             </div>
-            <div class="appDescAndTitle">
+            <div class="appDescAndTitle ms-5 mt-5 pt-5">
               <div
                 id="appDescriptionTitle"
                 class="row pt-5 mt-sm-1 mt-md-5 mt-5"
@@ -240,7 +242,7 @@
 
     <section class="container pt-5 mt-5 text-light">
       <div class="row text-center">
-        <div class="col">
+        <div class="col-12 col-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="48"
@@ -262,8 +264,8 @@
       </div>
     </section>
 
-    <section class="card-group m-5 p-5">
-      <div class="col-sm-12 p-0 ms-0 me-4 col-lg mb-5">
+    <section class="card-group mt-5 pt-5">
+      <div class="col col-sm-12 p-sm-0 ms-0 me-4 col-lg mb-5">
         <div class="card h-100 bg-warning fs-5">
           <div class="card-body py-5 px-5 me-2">
             <svg
@@ -291,7 +293,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-12 p-0 ms-0 me-4 col-lg mb-5">
+      <div class="col col-sm-12 p-0 ms-0 me-4 col-lg mb-5">
         <div class="card h-100 bg-warning fs-5">
           <div class="card-body py-5 px-5 me-2">
             <svg
@@ -317,31 +319,31 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="col-sm-12 p-0 ms-0 me-0 col-lg mb-5">
-        <div class="card h-100 bg-warning fs-5">
-          <div class="card-body py-5 px-5 me-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              class="bi bi-patch-question-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"
-              />
-            </svg>
-            <p class="card-title pt-5 fw-bold fs-5">Learn About Fasting</p>
-            <p class="card-title py-3">
-              At Highlands, we encourage fasting for 21 days each year in the
-              month of January.
-            </p>
-            <p class="card-title">
-              The goal of fasting is to draw nearer to God. Read our resources
-              on fasting to prepare you for the upcoming prayer season.
-            </p>
+        <div class="col col-sm-12 p-0 ms-0 me-0 col-lg my-5">
+          <div class="card h-100 bg-warning fs-5">
+            <div class="card-body py-5 px-5 me-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-patch-question-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"
+                />
+              </svg>
+              <p class="card-title pt-5 fw-bold fs-5">Learn About Fasting</p>
+              <p class="card-title py-3">
+                At Highlands, we encourage fasting for 21 days each year in the
+                month of January.
+              </p>
+              <p class="card-title">
+                The goal of fasting is to draw nearer to God. Read our resources
+                on fasting to prepare you for the upcoming prayer season.
+              </p>
+            </div>
           </div>
         </div>
       </div>

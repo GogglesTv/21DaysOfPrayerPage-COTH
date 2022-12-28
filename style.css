@@ -228,8 +228,6 @@ button.btn:hover {
   }
 
   #appStores {
-    height: 50px;
-    width: 150px;
     border-radius: 3rem;
     margin-left: 8rem;
   }
@@ -259,10 +257,28 @@ button.btn:hover {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .btn#campusSelect {
-    width: 30rem;
+    width: 20rem;
     margin-left: 0px;
+  }
+
+  #liftedHands {
+    height: 275px;
+    width: 275px;
+    margin-left: 3rem;
+  }
+
+  #aisle {
+    height: 200px;
+    width: 300px;
+    margin-left: 2rem;
+  }
+
+  #stage {
+    height: 275px;
+    width: 275px;
+    margin-left: 3rem;
   }
 
   #phone {
@@ -281,21 +297,22 @@ button.btn:hover {
   }
 
   #prayFirst {
-    height: 150px;
-    width: 150px;
-    margin-left: -8rem;
+    height: 125px;
+    width: 125px;
+    margin-left: 1.5rem;
+    margin-top: -4rem;
   }
 
   #appStores {
-    height: 60px;
+    height: 55px;
     width: 225px;
     font-size: 24px;
     border-radius: 3rem;
-    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
   }
 
   .appDescAndTitle {
-    margin-left: 0rem;
     padding-bottom: 0;
   }
 
@@ -305,7 +322,7 @@ button.btn:hover {
 
   #appDescription {
     height: 200px;
-    width: 500px;
-    font-size: 22px;
+    width: 350px;
+    font-size: 24px;
   }
 }
