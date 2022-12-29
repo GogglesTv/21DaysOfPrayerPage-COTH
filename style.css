@@ -56,10 +56,6 @@ img.pray {
   width: 12rem;
 }
 
-#appContainer {
-  max-width: 100vw;
-}
-
 #appTop {
   width: 500px;
 }
@@ -210,13 +206,11 @@ button.btn:hover {
   }
 
   #phone {
-    height: 425px;
-    width: 175px;
-    margin-left: -3.5rem;
+    display: none;
   }
 
   #appInfo {
-    margin-left: -11rem;
+    margin-left: -8rem;
   }
 
   #appTop {
@@ -246,8 +240,8 @@ button.btn:hover {
 
   #appDescription {
     height: 200px;
-    width: 300px;
-    font-size: 18px;
+    width: 350px;
+    font-size: 20px;
   }
 
   #footerLeft {
