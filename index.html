@@ -17,14 +17,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="text-light">
+    <header>
       <section class="container mb-5 py-5 header">
         <div class="row fs-4 fw-bold">
           <div class="col ps-0 pe-3">About</div>
           <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
             21 Days of Prayer
           </div>
-          <div class="col text-end p-0">
+          <div
+            class="col text-end p-0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -40,6 +44,25 @@
             </svg>
           </div>
         </div>
+
+        <div
+          class="modal fade bd-example-modal-md"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-md modal-dialog-centered">
+            <div class="modal-content border border-white">
+              <div class="modal-body mt-5 mb-5 ms-3">
+                <h3 class="text-dark mb-3">Home</h3>
+                <h3 class="text-dark mb-3">Fasting</h3>
+                <h3 class="text-dark mb-3">Resources</h3>
+                <h3 class="text-dark mb-3">Watch</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </header>
 
@@ -48,8 +71,8 @@
         <div class="col-sm-12 col-xl me-xl-3 ps-0 pb-5">
           <div
             id="prayerDates"
-            class="card p-5 text-light p-md-4 ps-md-5"
-            style="height: 45rem; background-color: green"
+            class="card p-5 p-md-4 ps-md-5"
+            style="height: 45rem"
           >
             <h1 class="card-title pt-5 pt-md-4 pt-sm-0">January 8-28, 2023</h1>
             <div class="card-body px-0">
@@ -86,7 +109,7 @@
       </div>
     </section>
 
-    <section class="container py-5 my-5 text-light">
+    <section class="container py-5 my-5">
       <div class="row text-center">
         <div class="col fs-2">Find a Local Campus Near You</div>
         <div class="pt-4">
@@ -115,7 +138,7 @@
             <div class="col-sm-6 px-sm-0 text-center">
               <button
                 type="button"
-                class="btn btn-warning dropdown-toggle fw-bold fs-4"
+                class="btn btn-dark dropdown-toggle fw-bold fs-4"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 id="campusSelect"
@@ -159,7 +182,7 @@
       </div>
     </section>
 
-    <section id="appContainer" class="container my-5 py-5 bg-info">
+    <section id="appContainer" class="container my-5 py-5 bg-light">
       <div class="row p-0 mt-5 mt-sm-0">
         <div
           id="phoneContainer"
@@ -240,7 +263,7 @@
       </div>
     </section>
 
-    <section class="container pt-5 mt-5 text-light">
+    <section class="container pt-5 mt-5">
       <div class="row text-center">
         <div class="col-12 col-sm">
           <svg
@@ -268,7 +291,7 @@
       <div class="container">
         <div class="row h-100">
           <div class="col-12 col-sm-12 p-0 ms-0 me-3 col-lg mb-5">
-            <div class="card bg-warning fs-5">
+            <div class="card fs-5">
               <div class="card-body py-5 px-5 me-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -296,7 +319,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 p-0 ms-0 me-3 col-lg mb-5">
-            <div class="card bg-warning fs-5">
+            <div class="card fs-5">
               <div class="card-body py-5 px-5 me-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -325,7 +348,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 p-0 ms-0 me-0 col-lg mb-5">
-            <div class="card bg-warning fs-5">
+            <div class="card fs-5">
               <div class="card-body py-5 px-5 me-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
