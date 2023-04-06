@@ -6,6 +6,10 @@ body {
   background-color: aliceblue;
 }
 
+.modal-content {
+  height: 500px;
+}
+
 #prayerGuide {
   border-radius: 1.5rem;
 }
