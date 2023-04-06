@@ -2,6 +2,41 @@ body {
   background-color: rgb(236, 242, 248);
 }
 
+.collapsedInfo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#mySidebar {
+  background-color: #0f172a;
+  color: white;
+  font-size: 25px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
 .modal {
   background-color: aliceblue;
 }
