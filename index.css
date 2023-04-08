@@ -1,0 +1,365 @@
+body {
+  background-color: rgb(236, 242, 248);
+}
+
+.collapsedInfo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0f172a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#mySidebar {
+  color: white;
+  font-size: 30px;
+}
+
+.sidebar > div {
+  margin-bottom: 50px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.modal {
+  background-color: aliceblue;
+}
+
+.modal-content {
+  height: 500px;
+}
+
+#prayerGuide {
+  border-radius: 1.5rem;
+}
+
+img.pray {
+  height: auto;
+}
+
+.btn#campusSelect {
+  border-radius: 100px;
+  width: 40rem;
+}
+
+#liftedHands {
+  height: 350px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+#aisle {
+  height: 300px;
+  width: 500px;
+  margin-top: -8rem;
+  margin-left: -5rem;
+  border-radius: 15px;
+}
+
+#stage {
+  height: 400px;
+  width: 400px;
+  margin-top: -15rem;
+  border-radius: 15px;
+}
+
+#phone {
+  height: 600px;
+  width: 300px;
+}
+
+#prayFirst {
+  height: 150px;
+  width: 150px;
+}
+
+#contactUs {
+  border-radius: 100px;
+  height: 3rem;
+  width: 12rem;
+}
+
+#appTop {
+  width: 500px;
+}
+
+#appStores {
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 3rem;
+}
+
+#appDescriptionTitle h4 {
+  width: 500px;
+}
+
+#appDescription {
+  height: 200px;
+  width: 700px;
+  font-size: 25px;
+}
+
+#appInfo {
+  width: 700px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+footer svg {
+  width: 100px;
+  height: 42px;
+}
+
+#logo {
+  margin-left: -1rem;
+}
+
+button.btn:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+#footerRight {
+  margin-left: -15rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn#campusSelect {
+    margin-left: -4rem;
+  }
+
+  #appDescription {
+    width: 500px;
+  }
+
+  #aisle {
+    height: 300px;
+    width: 500px;
+    margin-left: 3.5rem;
+  }
+
+  #logo {
+    margin-left: -1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn#campusSelect {
+    margin-left: -8rem;
+  }
+
+  #liftedHands {
+    height: 300px;
+    width: 300px;
+    margin: -5rem -15rem 10rem 12rem;
+  }
+
+  #aisle {
+    height: 300px;
+    width: 500px;
+    margin-left: 5.5rem;
+  }
+
+  #stage {
+    height: 320px;
+    width: 320px;
+    margin: 2rem 0rem 0rem 12rem;
+  }
+
+  #phone {
+    height: 500px;
+    width: 250px;
+  }
+
+  #prayFirst {
+    height: 130px;
+    width: 130px;
+  }
+
+  #appStores {
+    width: 200px;
+  }
+
+  #appDescription {
+    height: 200px;
+    width: 400px;
+    font-size: 22px;
+  }
+
+  #footerRight {
+    margin-left: -15rem;
+    width: 300px;
+  }
+
+  #arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn#campusSelect {
+    border-radius: 100px;
+    width: 35rem;
+  }
+
+  #liftedHands {
+    height: 250px;
+    width: 250px;
+    margin: -5rem 0 10rem 8.5rem;
+  }
+
+  #aisle {
+    height: 250px;
+    width: 450px;
+    margin-left: 1.7rem;
+  }
+
+  #stage {
+    height: 250px;
+    width: 250px;
+    margin: 2rem 0 0rem 8rem;
+  }
+
+  #phoneContainer {
+    margin-right: -10rem;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #appInfo {
+    margin-left: -8rem;
+  }
+
+  #appTop {
+    height: 75px;
+    width: 75px;
+    margin-left: 8.5rem;
+  }
+
+  #prayFirst {
+    height: 110px;
+    width: 110px;
+    margin-left: 1rem;
+  }
+
+  #appStores {
+    border-radius: 3rem;
+    margin-left: 8rem;
+  }
+
+  .appDescAndTitle {
+    padding-left: 10rem;
+  }
+
+  #appDescriptionTitle {
+    width: 400px;
+  }
+
+  #appDescription {
+    height: 200px;
+    width: 350px;
+    font-size: 20px;
+  }
+
+  #footerLeft {
+    width: 145px;
+  }
+
+  #footerRight {
+    margin-left: 13rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn#campusSelect {
+    width: 20rem;
+    margin-left: 0px;
+  }
+
+  #liftedHands {
+    height: 275px;
+    width: 275px;
+    margin-left: 3rem;
+  }
+
+  #aisle {
+    height: 200px;
+    width: 300px;
+    margin-left: 2rem;
+  }
+
+  #stage {
+    height: 275px;
+    width: 275px;
+    margin-left: 3rem;
+  }
+
+  #phone {
+    display: none;
+    margin-bottom: 0;
+  }
+
+  #appInfo {
+    margin-left: -1rem;
+  }
+
+  #appTop {
+    height: 75px;
+    width: 75px;
+    margin-left: 8.5rem;
+  }
+
+  #prayFirst {
+    height: 125px;
+    width: 125px;
+    margin-left: 1.5rem;
+    margin-top: -4rem;
+  }
+
+  #appStores {
+    height: 55px;
+    width: 225px;
+    font-size: 24px;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+  }
+
+  .appDescAndTitle {
+    padding-bottom: 0;
+    margin-left: -5rem;
+  }
+
+  #appDescriptionTitle {
+    width: 400px;
+  }
+
+  #appDescription {
+    height: 200px;
+    width: 350px;
+    font-size: 24px;
+  }
+}
