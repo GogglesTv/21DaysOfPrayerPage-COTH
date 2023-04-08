@@ -45,3 +45,9 @@ body {
 .modal-content {
   height: 500px;
 }
+
+#resourcesImg {
+  z-index: 100;
+  position: relative;
+  margin-top: -200px;
+}
