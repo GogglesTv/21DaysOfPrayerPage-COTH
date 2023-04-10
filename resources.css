@@ -51,3 +51,22 @@ body {
   position: relative;
   margin-top: -200px;
 }
+
+#personalPrayerGuide > .card,
+#morePrayerGuides > .card {
+  transition: transform 0.25s, background 0.25s;
+}
+
+#personalPrayerGuide > .card:hover {
+  transform: scale(1.05);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#morePrayerGuides > .card:hover {
+  transform: scale(1.07);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
