@@ -53,7 +53,8 @@ body {
 }
 
 #personalPrayerGuide > .card,
-#morePrayerGuides > .card {
+#morePrayerGuides > .card,
+.rowOfPrayers > .col > .card {
   transition: transform 0.25s, background 0.25s;
 }
 
@@ -65,6 +66,13 @@ body {
 }
 
 #morePrayerGuides > .card:hover {
+  transform: scale(1.07);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rowOfPrayers > .col > .card:hover {
   transform: scale(1.07);
   position: relative;
   z-index: 1;
