@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(236, 242, 248);
+  background-color: rgb(220, 229, 237);
 }
 
 .collapsedInfo:hover {
@@ -69,4 +69,9 @@ body {
   position: relative;
   z-index: 1;
   cursor: pointer;
+}
+
+.prayers {
+  height: 11rem;
+  width: 7rem;
 }
