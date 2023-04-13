@@ -58,6 +58,11 @@ body {
   width: 250px;
 }
 
+.our-hope {
+  font-size: 60px;
+  font-weight: 300;
+}
+
 #personalPrayerGuide > .card,
 #morePrayerGuides > .card,
 .rowOfPrayers > .col > .card,
@@ -157,6 +162,11 @@ button.btn:hover {
     height: 25rem;
     width: 22rem;
   }
+
+  .our-hope {
+    font-size: 3rem;
+    font-weight: 300;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -170,5 +180,9 @@ button.btn:hover {
   #resourcesCard {
     height: 22rem;
     width: 22rem;
+  }
+
+  .our-hope {
+    font-size: 2.5rem;
   }
 }
