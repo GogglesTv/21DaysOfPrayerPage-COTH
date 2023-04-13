@@ -46,10 +46,16 @@ body {
   height: 500px;
 }
 
+#resourcesCard {
+  width: 28rem;
+  height: 28rem;
+}
+
 #resourcesImg {
   z-index: 100;
   position: relative;
   margin-top: -200px;
+  width: 250px;
 }
 
 #personalPrayerGuide > .card,
@@ -144,4 +150,25 @@ button.btn:hover {
   width: 40rem;
   object-fit: cover;
   object-position: 30% 70%;
+}
+
+@media screen and (max-width: 992px) {
+  #resourcesCard {
+    height: 25rem;
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #resourcesCard {
+    height: 22rem;
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #resourcesCard {
+    height: 22rem;
+    width: 22rem;
+  }
 }
