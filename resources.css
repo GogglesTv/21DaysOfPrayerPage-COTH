@@ -238,4 +238,11 @@ button.btn:hover {
   .prayer-guide {
     width: 1, rem;
   }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  img#prayerApp {
+  }
 }
