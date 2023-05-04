@@ -63,6 +63,11 @@ body {
   font-weight: 300;
 }
 
+img#prayerGuide {
+  height: 25rem;
+  width: 17rem;
+}
+
 #personalPrayerGuide > .card,
 #morePrayerGuides > .card,
 .rowOfPrayers > .col > .card,
@@ -157,7 +162,20 @@ button.btn:hover {
   object-position: 30% 70%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  img#prayerGuide {
+    height: 19rem;
+    width: 13rem;
+  }
+
+  .al-prayerGuide,
+  .ga-prayerGuide,
+  .child-prayerGuide {
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #resourcesCard {
     height: 25rem;
     width: 22rem;
@@ -167,16 +185,31 @@ button.btn:hover {
     font-size: 3rem;
     font-weight: 300;
   }
+
+  img#prayerGuide {
+    height: 19rem;
+    width: 13rem;
+  }
+
+  #prayerGuideContainer {
+    width: 29rem;
+  }
+
+  .al-prayerGuide,
+  .ga-prayerGuide,
+  .child-prayerGuide {
+    height: 2rem;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #resourcesCard {
     height: 22rem;
     width: 35rem;
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   #resourcesCard {
     height: 22rem;
     width: 22rem;
@@ -184,5 +217,25 @@ button.btn:hover {
 
   .our-hope {
     font-size: 2.5rem;
+  }
+
+  .prayer-guide {
+    width: 5rem;
+  }
+
+  img#prayerGuide {
+    height: 10rem;
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  img#prayerGuide {
+    height: 12rem;
+    width: 8rem;
+  }
+
+  .prayer-guide {
+    width: 1, rem;
   }
 }

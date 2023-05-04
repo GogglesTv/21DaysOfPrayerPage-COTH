@@ -170,19 +170,22 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container mx-3 mx-sm-0">
       <div class="row">
-        <div class="col mb-3">
+        <div class="col mb-3 p-0">
           <p class="h3 fw-bold">Prayer Guides</p>
         </div>
       </div>
-      <div class="row mb-4" id="personalPrayerGuide">
+      <div class="row mb-4 px-lg-2" id="personalPrayerGuide">
         <div
-          class="col-md-7 col-12 card me-md-4 mb-md-0 mb-4 mx-md-0 border-0 rounded-4"
+          class="col-lg-6 col-12 card mb-lg-0 mb-4 border-0 rounded-4"
+          id="prayerGuideContainer"
         >
-          <div class="container card-body">
-            <div class="card-text row py-4 px-3">
-              <div class="col">
+          <div class="container card-body p-4">
+            <div class="card-text row py-sm-1">
+              <div
+                class="prayer-guide col col-md-6 col-lg-6 ms-5 ms-md-0 me-lg-3"
+              >
                 <img
                   src="./images/21dop-graphic.jpeg"
                   class="px-0 ms-0"
@@ -190,7 +193,7 @@
                   id="prayerGuide"
                 />
               </div>
-              <div class="col-md col-8">
+              <div class="col col-sm-7 col-md col-lg-5 p-0">
                 <div class="row">
                   <svg
                     class="mb-4"
@@ -205,20 +208,20 @@
                     ></path>
                   </svg>
                 </div>
-                <div class="row">
-                  <p class="display-6">Personal Prayer Guide</p>
+                <div class="row" id="prayerGuideTitle">
+                  <p class="fs-4">Personal Prayer Guide</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col" id="morePrayerGuides">
-          <div class="row card mb-4 border-0 rounded-4">
+        <div class="col-lg-6 col-12 ps-lg-4" id="morePrayerGuides">
+          <div class="row card mt-0 mb-4 border-0 rounded-4">
             <div class="card-body">
               <div class="card-text">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-1 pt-3">
+                <div class="container al-prayerGuide">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-1">
                       <svg
                         class="mb-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +236,7 @@
                       </svg>
                     </div>
                     <div class="col">
-                      <p class="h3 pt-3 fw-light">Prayer Guide: Alabama</p>
+                      <p class="fs-4">Prayer Guide: Alabama</p>
                     </div>
                   </div>
                 </div>
@@ -243,9 +246,9 @@
           <div class="row card mb-4 border-0 rounded-4">
             <div class="card-body">
               <div class="card-text">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-1 pt-3">
+                <div class="container ga-prayerGuide">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-1">
                       <svg
                         class="mb-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +263,7 @@
                       </svg>
                     </div>
                     <div class="col">
-                      <p class="h3 pt-3 fw-light">Prayer Guide: Georgia</p>
+                      <p class="fs-4">Prayer Guide: Georgia</p>
                     </div>
                   </div>
                 </div>
@@ -270,9 +273,9 @@
           <div class="row card border-0 rounded-4">
             <div class="card-body">
               <div class="card-text">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-1 pt-3">
+                <div class="container child-prayerGuide">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-1">
                       <svg
                         class="mb-4"
                         xmlns="http://www.w3.org/2000/svg"
@@ -287,7 +290,7 @@
                       </svg>
                     </div>
                     <div class="col">
-                      <p class="h3 pt-3 fw-light">Children's Prayer Guide</p>
+                      <p class="fs-4">Children's Prayer Guide</p>
                     </div>
                   </div>
                 </div>
@@ -297,204 +300,200 @@
         </div>
       </div>
       <div class="row">
-        <div class="container">
-          <div class="row mb-4 rowOfPrayers">
-            <div class="col-md col-12 ps-0">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/tabernacle-prayer.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
-                  </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>Tabernacle Prayer</p>
-                    </div>
-                  </div>
+        <div class="container px-0 d-flex flex-wrap">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/tabernacle-prayer.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
                 </div>
-              </div>
-            </div>
-            <div class="col ms-1">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/the-lords-prayer.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
                   </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>The Lord's Prayer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col ms-1">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/warfare-prayers.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
-                  </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>Warfare Prayers</p>
-                    </div>
+                  <div>
+                    <p>Tabernacle Prayer</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row rowOfPrayers">
-            <div class="col ps-0 me-2">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/the-prayer-of-jabez.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/the-lords-prayer.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
+                </div>
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
                   </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>The Prayer of Jabez</p>
-                    </div>
+                  <div>
+                    <p>The Lord's Prayer</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col ps-0 ms-1">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/praying-scripture.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md col-12 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/warfare-prayers.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
+                </div>
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
                   </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>Praying Scripture</p>
-                    </div>
+                  <div>
+                    <p>Warfare Prayers</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col ps-0 ms-1">
-              <div class="card border-0 rounded-4 p-3 container">
-                <div class="card-body row">
-                  <div class="col-4">
-                    <img
-                      src="images/praying-scripture.jpg"
-                      alt="tabernacle"
-                      class="prayers"
-                    />
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/the-prayer-of-jabez.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
+                </div>
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
                   </div>
-                  <div class="card-text col ps-4 fs-3">
-                    <div>
-                      <svg
-                        class="mb-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="auto"
-                        width="70"
-                        viewBox="0 0 50 25"
-                      >
-                        <path
-                          data-name="Icon material-picture-as-pdf"
-                          d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
-                          fill="#1d252c"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <p>Those Who Need God</p>
-                    </div>
+                  <div>
+                    <p>The Prayer of Jabez</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/praying-scripture.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
+                </div>
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p>Praying Scripture</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-12 p-xl-1 p-2">
+            <div class="card border-0 rounded-4 p-2 container">
+              <div class="card-body row">
+                <div class="col col-md-6 col-lg-4 me-xl-3 ms-5 ms-md-0">
+                  <img
+                    src="images/those-who-need-god.jpg"
+                    alt="tabernacle"
+                    class="prayers"
+                  />
+                </div>
+                <div class="card-text col fs-4">
+                  <div>
+                    <svg
+                      class="mb-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="auto"
+                      width="60"
+                      viewBox="0 0 50 25"
+                    >
+                      <path
+                        data-name="Icon material-picture-as-pdf"
+                        d="M17.849 0H5.95a1.989 1.989 0 0 0-1.984 1.983v11.9a1.989 1.989 0 0 0 1.984 1.983h11.9a1.989 1.989 0 0 0 1.983-1.983v-11.9A1.989 1.989 0 0 0 17.849 0ZM9.42 7.437a1.485 1.485 0 0 1-1.487 1.487h-.992v1.983H5.454V4.958h2.479A1.485 1.485 0 0 1 9.42 6.445Zm4.958 1.983a1.485 1.485 0 0 1-1.487 1.487h-2.479V4.958h2.479a1.485 1.485 0 0 1 1.487 1.487Zm3.966-2.975h-1.487v.992h1.487v1.487h-1.487v1.983H15.37V4.958h2.975Zm-11.4.992h.992v-.992h-.995ZM1.983 3.966H0v13.883a1.989 1.989 0 0 0 1.983 1.983h13.883v-1.983H1.983ZM11.9 9.42h.992V6.445H11.9Z"
+                        fill="#1d252c"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p>Those Who Need God</p>
                   </div>
                 </div>
               </div>
