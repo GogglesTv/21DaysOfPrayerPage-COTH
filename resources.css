@@ -207,6 +207,10 @@ button.btn:hover {
     height: 22rem;
     width: 35rem;
   }
+
+  .prayerAppTitle {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -227,6 +231,15 @@ button.btn:hover {
     height: 10rem;
     width: 6rem;
   }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  img#prayerApp {
+    height: 35rem;
+    width: 28rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -244,5 +257,7 @@ button.btn:hover {
   }
 
   img#prayerApp {
+    height: 35rem;
+    width: 28rem;
   }
 }
