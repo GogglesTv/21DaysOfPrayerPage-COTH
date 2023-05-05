@@ -200,6 +200,15 @@ button.btn:hover {
   .child-prayerGuide {
     height: 2rem;
   }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  img#prayerApp {
+    height: 35rem;
+    width: 30rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
