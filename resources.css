@@ -95,6 +95,10 @@ img#prayerGuide {
   width: 7rem;
 }
 
+#smPrayerApp {
+  display: none;
+}
+
 #prayerApp {
   height: 39rem;
   width: 30rem;
@@ -173,6 +177,21 @@ button.btn:hover {
   .child-prayerGuide {
     height: 2rem;
   }
+
+  img#prayerApp {
+    height: 33rem;
+    width: 25rem;
+  }
+
+  #prayFirst {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #appStores {
+    height: 50px;
+    width: 17rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -205,6 +224,14 @@ button.btn:hover {
     display: none;
   }
 
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
   img#prayerApp {
     height: 35rem;
     width: 30rem;
@@ -219,6 +246,14 @@ button.btn:hover {
 
   .prayerAppTitle {
     display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
   }
 }
 
@@ -245,6 +280,14 @@ button.btn:hover {
     display: none;
   }
 
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
   img#prayerApp {
     height: 35rem;
     width: 28rem;
@@ -263,6 +306,14 @@ button.btn:hover {
 
   .prayerAppTitle {
     display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
   }
 
   img#prayerApp {
