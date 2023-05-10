@@ -15,7 +15,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="px-1 px-sm-4">
       <section class="container py-5 header">
         <div class="row fs-5 fw-bold">
           <div class="col pe-3 collapsedInfo">About</div>
@@ -88,7 +88,7 @@
       </section>
     </header>
 
-    <section class="p-sm-4">
+    <section class="p-1 p-sm-4 mt-5">
       <div class="container my-lg-5 pb-lg-5">
         <div class="row">
           <div class="col-lg col-12">
@@ -110,7 +110,7 @@
               />
             </div>
           </div>
-          <div class="col-lg col-12 ms-lg-5">
+          <div class="col-lg col-12 ms-lg-5 mt-5 ms-2">
             <div class="row">
               <svg
                 class="heading-icons ps-0"
@@ -159,7 +159,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="p-1 p-sm-4">
       <div class="container my-5">
         <div class="card rounded-4">
           <div class="card-body">
@@ -174,7 +174,7 @@
       </div>
     </section>
 
-    <section class="p-sm-4">
+    <section class="p-3 p-sm-4">
       <div class="container">
         <div class="row">
           <div class="col mb-3">
@@ -509,7 +509,7 @@
       </div>
     </section>
 
-    <section class="my-5 py-5" id="lgPrayerApp">
+    <section class="my-5 p-3 p-sm-4 py-5" id="lgPrayerApp">
       <div class="card container rounded-4">
         <div class="card-body py-5">
           <div class="card-text p-lg-5">
@@ -667,7 +667,7 @@
       </div>
     </section>
 
-    <section class="my-5 p-4" id="smPrayerApp">
+    <section class="my-5 p-3 p-sm-4" id="smPrayerApp">
       <div class="card container py-5 rounded-4">
         <div class="card-body">
           <div class="card-text">
@@ -996,7 +996,7 @@
       </div>
     </section> -->
 
-    <section class="p-sm-4">
+    <section class="p-3 px-sm-4">
       <div class="container mb-5">
         <div class="row mb-3">
           <h5 class="h5 fw-bold">Messages</h5>
@@ -1049,14 +1049,16 @@
       </div>
     </section>
 
-    <section class="p-sm-4">
-      <div class="container mt-5 pt-5">
+    <section class="px-3 px-sm-4 px-md-5 p-lg-4">
+      <div class="container">
         <div class="row mt-5">
-          <div class="col-6 me-5">
+          <div class="col-12 col-lg-6 pe-lg-5 mb-5 mb-lg-0 pb-5 pb-lg-0">
             <h5 class="row h5 fw-bold pb-3">Fasting</h5>
-            <div class="row card rounded-4 border-0 mb-4 p-3 prayer-fasting">
-              <div class="card-body d-flex">
-                <div class="mb-5">
+            <div
+              class="row card rounded-4 border-0 p-3 p-lg-1 mb-4 prayer-fasting1"
+            >
+              <div class="card-body d-flex col-12 col-lg">
+                <div class="mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="70"
@@ -1072,17 +1074,21 @@
                     </g>
                   </svg>
                 </div>
-                <div class="card-text">
-                  <p class="display-6 fw-normal">
+                <div class="card-text w-100">
+                  <p class="fw-normal mb-lg-2 col">
                     7 Basic Steps to Prayer and Fasting
                   </p>
-                  <p class="fs-3 fst-italic fw-normal">by Dr. Bill Bright</p>
+                  <p class="fst-italic fw-normal mb-0 bill-bright">
+                    by Dr. Bill Bright
+                  </p>
                 </div>
+                <!-- COULDN'T GET THE DOWN ARROWS TO STICK TO THE BOTTOM RIGHT OF THE CARD FOR > 991px SCREEN SIZE-->
                 <div class="d-flex align-items-end">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="13.748"
                     height="13.749"
+                    class="down-arrow hidden"
                   >
                     <g
                       data-name="Icon feather-arrow-down-right"
@@ -1106,9 +1112,9 @@
                 </div>
               </div>
             </div>
-            <div class="row card rounded-4 border-0 p-3 prayer-fasting">
-              <div class="card-body d-flex">
-                <div class="mb-4">
+            <div class="row card rounded-4 border-0 p-3 p-lg-1 prayer-fasting2">
+              <div class="card-body d-flex col-12 col-lg">
+                <div class="mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="70"
@@ -1125,17 +1131,18 @@
                   </svg>
                 </div>
                 <div class="card-text w-100">
-                  <p class="display-6 fw-normal">Guide to Fasting and Prayer</p>
-                  <p class="fs-3 fst-italic fw-normal mb-0">
+                  <p class="fw-normal mb-lg-2">Guide to Fasting and Prayer</p>
+                  <p class="fst-italic fw-normal mb-0 bill-bright">
                     by Dr. Bill Bright
                   </p>
                 </div>
+                <!-- COULDN'T GET THE DOWN ARROWS TO STICK TO THE BOTTOM RIGHT OF THE CARD FOR > 991px SCREEN SIZE-->
                 <div class="d-flex align-items-end">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="13.748"
                     height="13.749"
-                    class="down-arrow"
+                    class="down-arrow hidden"
                   >
                     <g
                       data-name="Icon feather-arrow-down-right"
@@ -1160,7 +1167,7 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-5 p-0">
             <div class="border-0 prayer-aisle">
               <img src="images/prayer-aisle.jpeg" alt="" class="rounded-4" />
             </div>

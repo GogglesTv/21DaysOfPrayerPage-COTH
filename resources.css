@@ -148,7 +148,8 @@ button.btn:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.prayer-fasting:hover {
+.prayer-fasting1:hover,
+.prayer-fasting2:hover {
   transform: scale(1.07);
   position: relative;
   z-index: 1;
@@ -164,6 +165,10 @@ button.btn:hover {
   width: 40rem;
   object-fit: cover;
   object-position: 30% 70%;
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -236,6 +241,33 @@ button.btn:hover {
     height: 35rem;
     width: 30rem;
   }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 29rem;
+    object-fit: cover;
+    object-position: 30% 70%;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -254,6 +286,31 @@ button.btn:hover {
 
   #smPrayerApp {
     display: block;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 45rem;
   }
 }
 
@@ -292,6 +349,31 @@ button.btn:hover {
     height: 35rem;
     width: 28rem;
   }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 32rem;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -319,5 +401,30 @@ button.btn:hover {
   img#prayerApp {
     height: 35rem;
     width: 28rem;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 32.5rem;
   }
 }
