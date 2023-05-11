@@ -48,6 +48,8 @@ body {
 
 #prayerGuide {
   border-radius: 1.5rem;
+  object-fit: cover;
+  object-position: 0% 50%;
 }
 
 img.pray {
@@ -144,7 +146,7 @@ button.btn:hover {
   margin-left: -15rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .btn#campusSelect {
     margin-left: -4rem;
   }
@@ -164,7 +166,7 @@ button.btn:hover {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   .btn#campusSelect {
     margin-left: -8rem;
   }
@@ -217,7 +219,7 @@ button.btn:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (min-width: 991px) {
   .btn#campusSelect {
     border-radius: 100px;
     width: 35rem;
