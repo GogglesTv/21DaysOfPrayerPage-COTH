@@ -118,6 +118,15 @@ img.pray {
   font-size: 29px;
 }
 
+.resources-prayer-fasting > div {
+  transition: all 0.4s ease-in-out;
+}
+
+.resources-prayer-fasting > div:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
 footer svg {
   width: 100px;
   height: 42px;
