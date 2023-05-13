@@ -60,7 +60,6 @@ body {
 
 #prayerGuide {
   height: 38.5rem;
-  border-radius: 1.5rem;
   object-fit: cover;
   object-position: 0% 50%;
 }
@@ -95,49 +94,28 @@ img.pray {
   object-fit: cover;
 }
 
+#smallApp {
+  display: none;
+}
+
 #phone {
-  height: 600px;
-  width: 300px;
+  height: 500px;
+  width: 250px;
 }
 
 #prayFirst {
-  height: 150px;
-  width: 150px;
-}
-
-#contactUs {
-  border-radius: 100px;
-  height: 3rem;
-  width: 12rem;
-}
-
-#appTop {
-  width: 500px;
+  height: 175px;
+  width: 175px;
 }
 
 #appStores {
-  height: 50px;
+  height: 45px;
   width: 250px;
-  font-size: 20px;
-  border-radius: 3rem;
-}
-
-#appDescriptionTitle h4 {
-  width: 500px;
+  font-size: 18px;
 }
 
 #appDescription {
-  height: 200px;
-  width: 700px;
-  font-size: 25px;
-}
-
-#appInfo {
-  width: 700px;
-}
-
-.card {
-  border-radius: 20px;
+  font-size: 29px;
 }
 
 footer svg {
@@ -145,8 +123,10 @@ footer svg {
   height: 42px;
 }
 
-#logo {
-  margin-left: -1rem;
+#contactUs {
+  border-radius: 100px;
+  height: 3rem;
+  width: 12rem;
 }
 
 button.btn:hover {
@@ -192,7 +172,7 @@ button.btn:hover {
   }
 
   #appDescription {
-    width: 500px;
+    font-size: 28px;
   }
 
   #logo {
@@ -225,24 +205,8 @@ button.btn:hover {
     margin-left: 3rem;
   }
 
-  #phone {
-    height: 500px;
-    width: 250px;
-  }
-
-  #prayFirst {
-    height: 130px;
-    width: 130px;
-  }
-
-  #appStores {
-    width: 200px;
-  }
-
   #appDescription {
-    height: 200px;
-    width: 400px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   #footerRight {
@@ -289,47 +253,22 @@ button.btn:hover {
     z-index: -1;
   }
 
-  #phoneContainer {
-    margin-right: -10rem;
-  }
-
-  #phone {
+  #largeApp {
     display: none;
   }
 
-  #appInfo {
-    margin-left: -8rem;
-  }
-
-  #appTop {
-    height: 75px;
-    width: 75px;
-    margin-left: 8.5rem;
-  }
-
-  #prayFirst {
-    height: 110px;
-    width: 110px;
-    margin-left: 1rem;
+  #smallApp {
+    display: block;
   }
 
   #appStores {
-    border-radius: 3rem;
-    margin-left: 8rem;
-  }
-
-  .appDescAndTitle {
-    padding-left: 10rem;
-  }
-
-  #appDescriptionTitle {
-    width: 400px;
+    height: 50px;
+    width: 275px;
+    font-size: 25px;
   }
 
   #appDescription {
-    height: 200px;
-    width: 350px;
-    font-size: 20px;
+    font-size: 27px;
   }
 
   #footerLeft {
@@ -369,6 +308,24 @@ button.btn:hover {
     margin-top: -2rem;
     z-index: -1;
   }
+
+  #largeApp {
+    display: none;
+  }
+
+  #smallApp {
+    display: block;
+  }
+
+  #appStores {
+    height: 50px;
+    width: 275px;
+    font-size: 25px;
+  }
+
+  #appDescription {
+    font-size: 27px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -405,49 +362,21 @@ button.btn:hover {
     z-index: -1;
   }
 
-  #phone {
+  #largeApp {
     display: none;
-    margin-bottom: 0;
   }
 
-  #appInfo {
-    margin-left: -1rem;
-  }
-
-  #appTop {
-    height: 75px;
-    width: 75px;
-    margin-left: 8.5rem;
-  }
-
-  #prayFirst {
-    height: 125px;
-    width: 125px;
-    margin-left: 1.5rem;
-    margin-top: -4rem;
+  #smallApp {
+    display: block;
   }
 
   #appStores {
-    height: 55px;
-    width: 225px;
-    font-size: 24px;
-    border-radius: 3rem;
-    margin-top: 2rem;
-    margin-left: -2rem;
-  }
-
-  .appDescAndTitle {
-    padding-bottom: 0;
-    margin-left: -5rem;
-  }
-
-  #appDescriptionTitle {
-    width: 400px;
+    height: 50px;
+    width: 275px;
+    font-size: 25px;
   }
 
   #appDescription {
-    height: 200px;
-    width: 350px;
-    font-size: 24px;
+    font-size: 27px;
   }
 }
