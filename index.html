@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="px-1 px-sm-4 px-md-5 px-lg-4 px-xl-4">
-      <section class="container pt-5 header px-xl-3">
+      <section class="container pt-5 header px-md-0 px-xl-3">
         <div class="row fs-5 fw-semibold">
           <div class="col p-0 collapsedInfo">About</div>
           <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
@@ -91,43 +91,36 @@
       </section>
     </header>
 
-    <section class="px-1 px-sm-5 px-md-4 px-lg-0 px-xl-4">
+    <section class="px-1 px-md-4 px-lg-0 px-xl-4">
       <div class="container my-5 px-xl-1">
-        <div class="card-group">
-          <div class="col-sm-12 col-lg pe-lg-3 pe-xl-1 pb-5">
-            <div
-              id="prayerDates"
-              class="card p-5 p-md-5 ps-md-5"
-              style="height: 45rem"
-            >
-              <h1 class="card-title pt-5 pt-md-4 pt-sm-0">
-                January 8-28, 2023
-              </h1>
+        <div class="card-group row">
+          <div class="col-12 col-lg pe-lg-3 pe-xl-1 pb-5">
+            <div id="watchPrayer" class="card p-5 p-md-5 ps-md-5">
+              <div class="card-title pt-4 display-2">Watch</div>
               <div class="card-body px-0">
-                <div class="card-text fs-2 fw-light text-left">
-                  Join us as we intentionally seek God in prayer and believe for
-                  Him to move in powerful ways.
+                <div class="card-text text-left watch-text">
+                  Check out our online archive of messages delivered during our
+                  seasonal 21 Days of Prayer.
                 </div>
               </div>
-              <div class="row pb-5">
-                <div class="row fs-4 fw-bold text-left ps-md-4">
-                  Weekdays: 6:00am Central
-                  <div class="row fs-4 fw-bold text-left"></div>
-                  Saturday: 9:00am Central
-                  <div class="row fs-4 fw-bold text-left"></div>
-                  Sunday: Find a Service Time
-                </div>
+              <div class="row pb-4 pb-sm-5">
+                <button
+                  type="button"
+                  id="startWatching"
+                  class="btn btn-lg btn-dark rounded-5 w-75 fw-bold fs-3"
+                >
+                  Start Watching
+                </button>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg ps-lg-3 ps-xl-1 ms-xl-3">
+          <div class="col-12 col-lg ps-lg-3 ps-xl-1 ms-xl-3">
             <div class="container">
               <div class="row">
                 <!-- I couldn't pull the picture on the website so grabbed this one online-->
                 <img
                   src="./images/21dop-graphic.jpeg"
                   class="px-0"
-                  style="height: 45rem"
                   alt=""
                   id="prayerGuide"
                 />

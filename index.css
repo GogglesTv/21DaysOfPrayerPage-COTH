@@ -46,7 +46,20 @@ body {
   height: 500px;
 }
 
+#startWatching {
+  height: 65px;
+}
+
+#watchPrayer > div.card-body {
+  height: 18rem;
+}
+
+.watch-text {
+  font-size: 25px;
+}
+
 #prayerGuide {
+  height: 38.5rem;
   border-radius: 1.5rem;
   object-fit: cover;
   object-position: 0% 50%;
@@ -146,7 +159,19 @@ button.btn:hover {
   margin-left: -15rem;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #watchPrayer > div.card-body {
+    height: 18rem;
+  }
+
+  .watch-text {
+    font-size: 25px;
+  }
+
+  #prayerGuide {
+    height: 38.5rem;
+  }
+
   .btn#campusSelect {
     margin-left: -4rem;
   }
@@ -167,6 +192,18 @@ button.btn:hover {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  #watchPrayer > div.card-body {
+    height: 18rem;
+  }
+
+  .watch-text {
+    font-size: 25px;
+  }
+
+  #prayerGuide {
+    height: 38rem;
+  }
+
   .btn#campusSelect {
     margin-left: -8rem;
   }
@@ -219,7 +256,20 @@ button.btn:hover {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #watchPrayer > div.card-body {
+    height: 15rem;
+  }
+
+  .watch-text {
+    width: 575px;
+    font-size: 25px;
+  }
+
+  #prayerGuide {
+    height: 35rem;
+  }
+
   .btn#campusSelect {
     border-radius: 100px;
     width: 35rem;
@@ -295,7 +345,35 @@ button.btn:hover {
   }
 }
 
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #watchPrayer > div.card-body {
+    height: 15rem;
+  }
+
+  .watch-text {
+    width: 400px;
+    font-size: 22px;
+  }
+
+  #prayerGuide {
+    height: 35rem;
+  }
+}
+
 @media screen and (max-width: 575px) {
+  #watchPrayer > div.card-body {
+    height: 15rem;
+  }
+
+  .watch-text {
+    width: 450px;
+    font-size: 21px;
+  }
+
+  #prayerGuide {
+    height: 35rem;
+  }
+
   .btn#campusSelect {
     width: 20rem;
     margin-left: 0px;
