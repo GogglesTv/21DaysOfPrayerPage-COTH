@@ -18,8 +18,8 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <header class="px-1 px-sm-4 px-md-5 px-lg-4 px-xl-4">
-      <section class="container pt-5 header px-md-0 px-xl-3">
+    <header class="px-4 px-md-5 px-lg-4 px-xl-4">
+      <section class="container pt-5 header px-md-0 px-lg-2 px-xl-3">
         <div class="row fs-5 fw-semibold">
           <div class="col p-0 collapsedInfo">About</div>
           <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
@@ -353,7 +353,7 @@
       </div>
     </section>
 
-    <section class="container pt-5 mt-5">
+    <section class="container py-lg-5 my-5">
       <div class="row text-center">
         <div class="col-12 col-sm">
           <svg
@@ -371,7 +371,10 @@
         </div>
       </div>
       <div class="row text-center pt-3 justify-content-center">
-        <p class="col-7 display-3" style="font-weight: 400">
+        <p
+          class="col-12 col-xl-8 col-xxl-7 px-lg-5 display-4"
+          style="font-weight: 400"
+        >
           Prayer is our first response, not our last resort.
         </p>
       </div>
@@ -380,9 +383,9 @@
     <section class="card-group mt-5 px-3 px-sm-4">
       <div class="container px-md-4">
         <div class="row h-100 resources-prayer-fasting">
-          <div class="col-12 col-sm-12 col-lg-6 col-xl p-0">
-            <div class="card fs-5 rounded-4 border-0 pt-3">
-              <div class="card-body p-4 px-xxl-5 my-5 my-xl-0">
+          <div class="col-12 col-lg-6 col-xl p-0">
+            <div class="card fs-5 rounded-4 border-0 pt-3 h-100">
+              <div class="card-body p-4 px-lg-5 px-xxl-5 my-5 pt-5 my-lg-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -397,7 +400,7 @@
                   />
                 </svg>
                 <p class="card-title pt-5 fw-bold">View Prayer Resources</p>
-                <p class="card-title py-4">
+                <p class="card-title py-3">
                   Download and follow along with Biblical models of prayer and
                   personal prayer guides.
                 </p>
@@ -409,10 +412,10 @@
             </div>
           </div>
           <div
-            class="col-12 col-sm-12 col-lg col-xl p-0 ms-lg-4 mx-xl-4 my-4 my-lg-0 py-2 py-lg-0"
+            class="col-12 col-lg p-0 ms-lg-4 mx-xl-4 my-4 my-lg-0 py-2 py-lg-0"
           >
             <div class="card fs-5 rounded-4 border-0 pt-3">
-              <div class="card-body p-4 px-xxl-5 my-5 my-xl-0">
+              <div class="card-body p-4 px-lg-5 px-xxl-5 my-5 pt-5 my-lg-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -428,7 +431,7 @@
                 <p class="card-title pt-5 fw-bold fs-5">
                   Submit a Prayer Request
                 </p>
-                <p class="card-title py-4">
+                <p class="card-title py-3">
                   We would be honored to pray with you. Tell us how we can stand
                   in agreement with you during this season.
                 </p>
@@ -439,11 +442,9 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-12 col-sm-12 col-lg-6 col-xl p-0 mb-5 mt-lg-4 mt-xl-0"
-          >
+          <div class="col-12 col-lg-6 col-xl p-0 mb-5 mt-lg-4 mt-xl-0">
             <div class="card fs-5 rounded-4 border-0 pt-3">
-              <div class="card-body p-4 px-xxl-5 my-5 my-xl-0">
+              <div class="card-body p-4 px-lg-5 px-xxl-5 my-5 pt-5 my-lg-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -457,7 +458,7 @@
                   />
                 </svg>
                 <p class="card-title pt-5 fw-bold fs-5">Learn About Fasting</p>
-                <p class="card-title py-4">
+                <p class="card-title py-3">
                   At Highlands, we encourage fasting for 21 days each year in
                   the month of January.
                 </p>
@@ -473,14 +474,18 @@
       </div>
     </section>
 
-    <footer class="text-dark">
-      <section class="container py-5 mt-5">
-        <div class="row py-5">
-          <div id="footerLeft" class="col col-2 ms-0">
+    <footer class="px-3 px-md-4 px-lg-5 py-5 mt-5 text-dark">
+      <section class="container">
+        <div class="row py-5 d-flex flex-column flex-md-row">
+          <div
+            id="footerLeft"
+            class="col-12 col-lg-2 me-5 d-flex flex-lg-column align-items-start justify-content-between"
+          >
             <div class="row pt-5">
-              <div id="logo" class="col ps-0">
+              <div id="logo" class="col ps-0 mb-3">
                 <svg
-                  width="52"
+                  width="70"
+                  height="auto"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 557 392"
                   class="logo"
@@ -496,125 +501,119 @@
                 </svg>
               </div>
             </div>
-            <div class="row pt-4">
+            <div class="row pt-4 mb-lg-5">
               <button
                 type="button"
                 id="contactUs"
-                class="btn btn-dark btn-lg mt-3 fs-5 fw-bold"
+                class="btn btn-dark btn-lg mt-3 fs-3 fw-bold rounded-5"
               >
                 Contact Us
               </button>
             </div>
           </div>
-          <div id="footerMiddle" class="col col-md ms-5">
-            <div class="row">
-              <div class="fa-fw fs-5 mb-2">
+          <div
+            id="footerMiddle"
+            class="col col-md-6 col-lg-5 ms-lg-5 mt-5 mt-lg-5 pt-4 pt-lg-0 px-0 fs-3"
+          >
+            <div class="row ms-3">
+              <div class="fa-fw mb-4">
                 <svg
+                  class="arrow me-3 me-lg-4"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="50"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  id="arrow"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
                   ></path>
                 </svg>
                 About Fasting
               </div>
-              <div class="fa-fw fs-5 mb-2">
+              <div class="fa-fw mb-4">
                 <svg
+                  class="arrow me-3 me-lg-4"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="50"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  id="arrow"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
                   ></path>
                 </svg>
                 Prayer Resources
               </div>
-              <div class="fa-fw fs-5 mb-2">
+              <div class="fa-fw mb-4">
                 <svg
+                  class="arrow me-3 me-lg-4"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="50"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  id="arrow"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
                   ></path>
                 </svg>
                 Watch Messages
               </div>
-              <div class="fa-fw fs-5">
+              <div class="fa-fw">
                 <svg
+                  class="arrow me-3 me-lg-4"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="50"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                  id="arrow"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
                   ></path>
                 </svg>
                 Submit Prayer Request
               </div>
             </div>
           </div>
-          <div id="footerRight" class="col col-lg col-md-2 col-sm ps-md-5 ps-">
-            <div class="row fw-bold fs-5 ms-lg-5 ps-lg-5 pt-0 pt-md-0">
-              Download Pray First
-            </div>
-            <div class="fs-5 ps-lg-4 ms-lg-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="50"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                id="arrow"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                ></path>
-              </svg>
-              iOS App
-            </div>
-            <div class="fs-5 ps-lg-4 ms-lg-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="50"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-                id="arrow"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                ></path>
-              </svg>
-              Android App
+          <div
+            id="footerRight"
+            class="col col-md-6 col-lg-3 mt-5 mt-md-4 mt-lg-4 pt-4 pt-lg-0 px-0 ps-md-4 ps-lg-0"
+          >
+            <div class="row ms-3">
+              <div class="fw-bold fs-5 mb-4">Download Pray First</div>
+              <div class="fs-3 mb-4 d-flex">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                <p>iOS App</p>
+              </div>
+              <div class="fs-3 d-flex">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                <p>Android App</p>
+              </div>
             </div>
           </div>
         </div>

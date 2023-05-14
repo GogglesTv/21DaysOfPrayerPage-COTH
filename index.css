@@ -127,11 +127,6 @@ img.pray {
   cursor: pointer;
 }
 
-footer svg {
-  width: 100px;
-  height: 42px;
-}
-
 #contactUs {
   border-radius: 100px;
   height: 3rem;
@@ -144,12 +139,21 @@ button.btn:hover {
   transition: 0.4s;
 }
 
-#footerRight {
-  margin-left: -15rem;
+#contactUs {
+  height: 60px;
+  width: 200px;
 }
 
 .hidden {
   display: none;
+}
+
+#footerMiddle > div > div {
+  font-size: 23px;
+}
+
+#footerRight > div > div > p {
+  font-size: 21px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -218,13 +222,12 @@ button.btn:hover {
     font-size: 24px;
   }
 
-  #footerRight {
-    margin-left: -15rem;
-    width: 300px;
+  #footerMiddle > div > div {
+    font-size: 22px;
   }
 
-  #arrow {
-    display: none;
+  #footerRight > div > div > p {
+    font-size: 19px;
   }
 }
 
@@ -280,12 +283,16 @@ button.btn:hover {
     font-size: 27px;
   }
 
-  #footerLeft {
-    width: 145px;
+  #contactUs {
+    margin-right: 6.25rem;
   }
 
-  #footerRight {
-    margin-left: 13rem;
+  #footerMiddle > div > div {
+    font-size: 23px;
+  }
+
+  #footerRight > div > div > p {
+    font-size: 21px;
   }
 }
 
@@ -334,6 +341,10 @@ button.btn:hover {
 
   #appDescription {
     font-size: 27px;
+  }
+
+  #contactUs {
+    margin-right: 3rem;
   }
 }
 
@@ -387,5 +398,9 @@ button.btn:hover {
 
   #appDescription {
     font-size: 27px;
+  }
+
+  #contactUs {
+    margin-right: 2rem;
   }
 }
