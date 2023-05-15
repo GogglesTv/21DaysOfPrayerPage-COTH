@@ -6,9 +6,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fasting</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fasting.css" />
   </head>
   <body>
+    <header class="px-4 px-md-5 px-lg-4 px-xl-4">
+      <section class="container pt-5 header px-md-0 px-lg-2 px-xl-3">
+        <div class="row fs-5 fw-semibold">
+          <div class="col p-0 collapsedInfo">About</div>
+          <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
+            21 Days of Prayer
+          </div>
+          <div
+            class="col text-end p-0"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+          <div class="sidebar-close"><a href="#">About</a></div>
+          <div>
+            <p>
+              Every January and August, we set aside 21 days to intentionally
+              seek God in prayer and believe for Him to move in powerful ways.
+            </p>
+          </div>
+          <div>
+            <p>
+              Each morning, we gather for a one-hour prayer experience,
+              including worship, personal prayer time, and corporate prayer.
+            </p>
+          </div>
+          <div>
+            <p>
+              Whether you join us in person or online, we would love for you to
+              take part in 21 Days of Prayer.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border border-white">
+              <div
+                class="modal-body mt-5 mb-5 ms-3 d-flex flex-column justify-content-center"
+              >
+                <p class="display-5 fw-normal text-dark mb-3">Home</p>
+                <p class="display-5 fw-normal text-dark mb-3">Fasting</p>
+                <p class="display-5 fw-normal text-dark mb-3">Resources</p>
+                <p class="display-5 fw-normal text-dark mb-3">Watch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <footer class="px-3 px-md-4 px-lg-5 py-5 mt-5 text-dark">
+      <section class="container">
+        <div class="row py-5 d-flex flex-column flex-md-row">
+          <div
+            id="footerLeft"
+            class="col-12 col-lg-2 me-5 d-flex flex-lg-column align-items-start justify-content-between"
+          >
+            <div class="row pt-5">
+              <div id="logo" class="col ps-0 mb-3">
+                <svg
+                  width="70"
+                  height="auto"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 557 392"
+                  class="logo"
+                >
+                  <path
+                    class="cls-1"
+                    d="M463.2 205.39c-169.13-16-217.13 182.84-413 63.06L.29 341.92C205.9 476.56 338.14 289.1 556.71 343Z"
+                  ></path>
+                  <path
+                    class="cls-1"
+                    d="M234.6 269.66a61.83 61.83 0 1 1 103.28-59.34c33.63-18.4 72.67-28.66 111.1-25.86L349.64 38.24c-34.31-50.51-108.74-50.51-143 0L62.2 250.79c97.86 67.5 172.66 19.13 172.4 18.87ZM336 151.63a11.62 11.62 0 0 1 1.92-1.92l33.2-26.12a6.45 6.45 0 0 1 9.06 9.06L354 165.84a11.41 11.41 0 0 1-7.67 4.3 10.64 10.64 0 0 1-1.38.08 11.48 11.48 0 0 1-9-18.59Zm-69.26-21.95 5-41.94a6.51 6.51 0 0 1 7.17-5.64 6.42 6.42 0 0 1 5.65 5.64l5 41.94a11.48 11.48 0 0 1-10 12.77 12.59 12.59 0 0 1-1.37.08 11.51 11.51 0 0 1-11.4-10.13 12.28 12.28 0 0 1-.08-2.72Zm-89.53-6.1a6.44 6.44 0 0 1 8 0l33.19 26.13a11.48 11.48 0 0 1-5.74 20.43 10.9 10.9 0 0 1-1.39.08 11.39 11.39 0 0 1-7.08-2.46 12 12 0 0 1-1.92-1.92l-26.13-33.2a6.47 6.47 0 0 1 1.04-9.06Zm-36.97 95.62 41.94-5a11.49 11.49 0 1 1 2.73 22.8 11.66 11.66 0 0 1-1.34.07 12.88 12.88 0 0 1-1.38-.07l-41.94-5a6.45 6.45 0 0 1 0-12.81Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="row pt-4 mb-lg-5">
+              <button
+                type="button"
+                id="contactUs"
+                class="btn btn-dark btn-lg mt-3 fs-3 fw-bold rounded-5"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <div
+            id="footerMiddle"
+            class="col col-md-6 col-lg-5 ms-lg-5 mt-5 mt-lg-5 pt-4 pt-lg-0 px-0 fs-3"
+          >
+            <div class="row ms-3">
+              <div class="fa-fw mb-4">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                About Fasting
+              </div>
+              <div class="fa-fw mb-4">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                Prayer Resources
+              </div>
+              <div class="fa-fw mb-4">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                Watch Messages
+              </div>
+              <div class="fa-fw">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                Submit Prayer Request
+              </div>
+            </div>
+          </div>
+          <div
+            id="footerRight"
+            class="col col-md-6 col-lg-3 mt-5 mt-md-4 mt-lg-4 pt-4 pt-lg-0 px-0 ps-md-4 ps-lg-0"
+          >
+            <div class="row ms-3">
+              <div class="fw-bold fs-5 mb-4">Download Pray First</div>
+              <div class="fs-3 mb-4 d-flex">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                <p>iOS App</p>
+              </div>
+              <div class="fs-3 d-flex">
+                <svg
+                  class="arrow me-3 me-lg-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="auto"
+                  viewBox="0 0 47.969 15.143"
+                >
+                  <path
+                    d="M0 9.086h38.883v6.057l9.086-7.662L38.883 0v6.057H0Z"
+                    data-name="Icon open-arrow-bottom"
+                  ></path>
+                </svg>
+                <p>Android App</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
