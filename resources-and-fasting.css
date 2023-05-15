@@ -65,6 +65,16 @@ body {
   height: 3rem;
 }
 
+.fasting-description {
+  font-size: 26px;
+}
+
+#prayerLine {
+  height: 37rem;
+  width: 39rem;
+  object-fit: cover;
+}
+
 .our-hope {
   font-size: 60px;
   font-weight: 300;
