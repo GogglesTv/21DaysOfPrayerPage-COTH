@@ -1,0 +1,505 @@
+body {
+  background-color: rgb(220, 229, 237);
+}
+
+.collapsedInfo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0f172a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#mySidebar {
+  color: white;
+  font-size: 30px;
+}
+
+.sidebar > div {
+  margin-bottom: 50px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: 0.3s;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.modal {
+  background-color: aliceblue;
+}
+
+.modal-content {
+  height: 500px;
+}
+
+#resourcesCard,
+#fastingCard {
+  width: 28rem;
+  height: 28rem;
+}
+
+#resourcesImg,
+#fastingImg {
+  z-index: 100;
+  position: relative;
+  margin-top: -200px;
+  width: 250px;
+}
+
+.asterisk {
+  width: auto;
+  height: 3rem;
+}
+
+.our-hope {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+img#prayerGuide {
+  height: 25rem;
+  width: 17rem;
+}
+
+#personalPrayerGuide > .card,
+#morePrayerGuides > .card,
+.rowOfPrayers > .col > .card,
+.prayer-fasting {
+  transition: transform 0.25s, background 0.25s;
+}
+
+#personalPrayerGuide > .card:hover {
+  transform: scale(1.05);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#morePrayerGuides > .card:hover,
+.rowOfPrayers > .col > .card:hover {
+  transform: scale(1.07);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.prayers {
+  height: 11rem;
+  width: 7rem;
+}
+
+#smPrayerApp {
+  display: none;
+}
+
+#prayerApp {
+  height: 39rem;
+  width: 30rem;
+}
+
+#prayFirst {
+  height: 12rem;
+  width: 12rem;
+}
+
+#appStores {
+  height: 60px;
+  width: 22rem;
+}
+
+button.btn:hover {
+  background-color: #ecf2f8;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:hover {
+  cursor: pointer;
+}
+
+.overlay > img {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-button {
+  left: 0;
+  position: absolute;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prayer-fasting1:hover,
+.prayer-fasting2:hover {
+  transform: scale(1.07);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.prayer-fasting1 > div > div > svg,
+.prayer-fasting2 > div > div > svg {
+  height: 55px;
+}
+
+.prayer-fasting1 > div > div > p,
+.prayer-fasting2 > div > div > p {
+  font-size: 27px;
+}
+
+.prayer-fasting1 > div > div > p.bill-bright,
+.prayer-fasting2 > div > div > p.bill-bright {
+  font-size: 20px;
+}
+
+.prayer-fasting1 > div > div.card-text,
+.prayer-fasting2 > div > div.card-text {
+  margin-left: -25px;
+}
+
+.prayer-aisle > img {
+  height: 40rem;
+  width: 41rem;
+  object-fit: cover;
+  object-position: 30% 70%;
+}
+
+.hidden {
+  display: none;
+}
+
+#contactUs {
+  height: 60px;
+  width: 200px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  img#prayerGuide {
+    height: 19rem;
+    width: 13rem;
+  }
+
+  .al-prayerGuide,
+  .ga-prayerGuide,
+  .child-prayerGuide {
+    height: 2rem;
+  }
+
+  img#prayerApp {
+    height: 33rem;
+    width: 25rem;
+  }
+
+  #prayFirst {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #appStores {
+    height: 50px;
+    width: 17rem;
+  }
+
+  .prayer-aisle > img {
+    height: 39rem;
+    width: 34rem;
+    object-fit: cover;
+    object-position: 30% 70%;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #resourcesCard {
+    height: 25rem;
+    width: 22rem;
+  }
+
+  .our-hope {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  img#prayerGuide {
+    height: 19rem;
+    width: 13rem;
+  }
+
+  #prayerGuideContainer {
+    width: 29rem;
+  }
+
+  .al-prayerGuide,
+  .ga-prayerGuide,
+  .child-prayerGuide {
+    height: 2rem;
+  }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
+  img#prayerApp {
+    height: 35rem;
+    width: 30rem;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 29rem;
+    object-fit: cover;
+    object-position: 30% 70%;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  #footerMiddle > div > div {
+    font-size: 22px;
+  }
+
+  #footerRight > div > div > p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #resourcesCard {
+    height: 22rem;
+    width: 35rem;
+  }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 42rem;
+  }
+
+  #contactUs {
+    margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #resourcesCard {
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .our-hope {
+    font-size: 2.5rem;
+  }
+
+  .prayer-guide {
+    width: 5rem;
+  }
+
+  img#prayerGuide {
+    height: 10rem;
+    width: 6rem;
+  }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
+  img#prayerApp {
+    height: 35rem;
+    width: 28rem;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 32rem;
+  }
+
+  #contactUs {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  img#prayerGuide {
+    height: 12rem;
+    width: 8rem;
+  }
+
+  .prayer-guide {
+    width: 1, rem;
+  }
+
+  .prayerAppTitle {
+    display: none;
+  }
+
+  #lgPrayerApp {
+    display: none;
+  }
+
+  #smPrayerApp {
+    display: block;
+  }
+
+  img#prayerApp {
+    height: 35rem;
+    width: 28rem;
+  }
+
+  .prayer-fasting1 > div > div > svg,
+  .prayer-fasting2 > div > div > svg {
+    height: 55px;
+  }
+
+  .prayer-fasting1 > div > div > p,
+  .prayer-fasting2 > div > div > p {
+    font-size: 27px;
+  }
+
+  .prayer-fasting1 > div > div > p.bill-bright,
+  .prayer-fasting2 > div > div > p.bill-bright {
+    font-size: 20px;
+  }
+
+  .prayer-fasting1 > div > div.card-text,
+  .prayer-fasting2 > div > div.card-text {
+    margin-left: -25px;
+  }
+
+  .prayer-aisle > img {
+    height: 36rem;
+    width: 32.5rem;
+  }
+
+  #contactUs {
+    margin-right: 30px;
+  }
+}
