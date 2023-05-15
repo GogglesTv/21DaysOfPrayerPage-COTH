@@ -60,6 +60,7 @@ body {
   width: 250px;
 }
 
+/* FASTING PAGE */
 .asterisk {
   width: auto;
   height: 3rem;
@@ -75,6 +76,12 @@ body {
   object-fit: cover;
 }
 
+div.fasting-scriptures > div > svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* RESOURCES PAGE */
 .our-hope {
   font-size: 60px;
   font-weight: 300;
