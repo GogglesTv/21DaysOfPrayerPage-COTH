@@ -95,11 +95,13 @@ img#prayerGuide {
 #personalPrayerGuide > .card,
 #morePrayerGuides > .card,
 .rowOfPrayers > .col > .card,
-.prayer-fasting {
+.prayer-fasting,
+.fasting-scriptures-container {
   transition: transform 0.25s, background 0.25s;
 }
 
-#personalPrayerGuide > .card:hover {
+#personalPrayerGuide > .card:hover,
+.fasting-scriptures-container:hover {
   transform: scale(1.05);
   position: relative;
   z-index: 1;
