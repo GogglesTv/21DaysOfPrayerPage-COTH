@@ -12,19 +12,12 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
-      crossorigin="anonymous"
-      async
-    ></script>
-
     <link rel="stylesheet" href="resources-and-fasting.css" />
   </head>
   <body>
-    <header class="px-4 px-md-5 px-lg-4 px-xl-4">
+    <header class="px-3 px-sm-4 px-md-5 px-lg-4 px-xl-4">
       <section class="container pt-5 header px-md-0 px-lg-2 px-xl-4">
-        <div class="row fs-5 fw-semibold">
+        <div class="row h5 fw-bold">
           <div class="col p-0 collapsedInfo">About</div>
           <div id="headerMiddle" class="col-6 col-sm-6 text-center p-0">
             21 Days of Prayer
@@ -104,7 +97,7 @@
                 <p
                   class="card-text display-xl-2 display-5 text-white ms-4 mt-5 pt-5"
                 >
-                  Resources
+                  Fasting
                 </p>
               </div>
             </div>
@@ -124,11 +117,11 @@
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-asterisk ps-0 asterisk"
+                class="bi bi-star-fill star"
                 viewBox="0 0 16 16"
               >
                 <path
-                  d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                 />
               </svg>
             </div>
@@ -196,7 +189,7 @@
             >
               <div class="card-body">
                 <div
-                  class="card-text d-flex flex-row justify-content-center fs-3 fasting-scriptures"
+                  class="card-text d-flex flex-row justify-content-center fs-2 fasting-scriptures"
                 >
                   <div>
                     <svg
@@ -226,7 +219,7 @@
             >
               <div class="card-body">
                 <div
-                  class="card-text d-flex flex-row justify-content-center fs-3 fasting-scriptures"
+                  class="card-text d-flex flex-row justify-content-center fs-2 fasting-scriptures"
                 >
                   <div>
                     <svg
@@ -256,7 +249,7 @@
             >
               <div class="card-body">
                 <div
-                  class="card-text d-flex flex-row justify-content-center fs-3 fasting-scriptures"
+                  class="card-text d-flex flex-row justify-content-center fs-2 fasting-scriptures"
                 >
                   <div>
                     <svg
@@ -288,7 +281,7 @@
             >
               <div class="card-body">
                 <div
-                  class="card-text d-flex flex-row justify-content-center fs-3 fasting-scriptures"
+                  class="card-text d-flex flex-row justify-content-center fs-2 fasting-scriptures"
                 >
                   <div>
                     <svg
@@ -318,7 +311,7 @@
             >
               <div class="card-body">
                 <div
-                  class="card-text d-flex flex-row justify-content-center fs-3 fasting-scriptures"
+                  class="card-text d-flex flex-row justify-content-center fs-2 fasting-scriptures"
                 >
                   <div>
                     <svg
@@ -566,77 +559,91 @@
       </div>
     </section>
 
-    <section class="p-1 p-sm-4">
+    <section class="p-1 p-sm-4 my-5">
       <div class="container card p-5">
-        <div class="card-body p-5">
-          <div class="card-title">
-            <p class="display-1 text-center py-5">Types of Fasts</p>
-          </div>
-          <div class="card-text">
-            <div class="card rounded-4 border border-dark border-3 p-5">
-              <div class="card-body">
-                <div class="card-text">
-                  <div class="card-title pb-2">
-                    <h2 class="h2 fw-bold">Selective Fast</h2>
-                  </div>
-                  <div class="card-text fs-3">
-                    This type of fast involves removing certain elements from
-                    your diet. One example of a selective fast is the Daniel
-                    Fast, during which you remove meat, sweets, and bread from
-                    your diet and consume water and juice for fluids and fruits
-                    and vegetables for food.
+        <div class="row">
+          <div class="card-body p-5">
+            <div class="card-title">
+              <p class="display-1 text-center py-4">Types of Fasts</p>
+            </div>
+            <div class="card-text">
+              <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="col-6 p-4">
+                  <div class="card rounded-4 border border-dark border-3 p-5">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <div class="card-title pb-2">
+                          <h2 class="h2 fw-bold">Selective Fast</h2>
+                        </div>
+                        <div class="card-text fs-4">
+                          This type of fast involves removing certain elements
+                          from your diet. One example of a selective fast is the
+                          Daniel Fast, during which you remove meat, sweets, and
+                          bread from your diet and consume water and juice for
+                          fluids and fruits and vegetables for food.
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="card rounded-4 border border-dark border-3 p-5">
-              <div class="card-body">
-                <div class="card-text">
-                  <div class="card-title pb-2">
-                    <h2 class="h2 fw-bold">Complete Fast</h2>
-                  </div>
-                  <div class="card-text fs-3">
-                    In this type of fast, you drink only liquids, typically
-                    water with light juices as an option.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card rounded-4 border border-dark border-3 p-5">
-              <div class="card-body">
-                <div class="card-text">
-                  <div class="card-title pb-2">
-                    <h2 class="h2 fw-bold">Partial Fast</h2>
-                  </div>
-                  <div class="card-text fs-3">
-                    This fast is sometimes called the “Jewish Fast” and involves
-                    abstaining from eating any type of food in the morning and
-                    afternoon. This can either correlate to specific times of
-                    the day, such as 6:00 am to 3:00 pm, or from sunup to
-                    sundown.
+                <div class="col-6 p-4">
+                  <div class="card rounded-4 border border-dark border-3 p-5">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <div class="card-title pb-2">
+                          <h3 class="h3 fw-bold">Complete Fast</h3>
+                        </div>
+                        <div class="card-text fs-4">
+                          In this type of fast, you drink only liquids,
+                          typically water with light juices as an option.
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="card rounded-4 border border-dark border-3 p-5">
-              <div class="card-body">
-                <div class="card-text">
-                  <div class="card-title pb-2">
-                    <h2 class="h2 fw-bold">Soul Fast</h2>
+                <div class="col-6 p-4">
+                  <div class="card rounded-4 border border-dark border-3 p-5">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <div class="card-title pb-2">
+                          <h2 class="h2 fw-bold">Soul Fast</h2>
+                        </div>
+                        <div class="card-text fs-4">
+                          <p>
+                            This fast is a great option if you do not have much
+                            experience fasting food, have health issues that
+                            prevent you from fasting food, or if you wish to
+                            refocus certain areas of your life that are out of
+                            balance.
+                          </p>
+                          <p>
+                            For example, you might choose to stop using social
+                            media or watching television for the duration of the
+                            fast and then carefully bring that element back into
+                            your life in healthy doses at the conclusion of the
+                            fast.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-text fs-3">
-                    <p>
-                      This fast is a great option if you do not have much
-                      experience fasting food, have health issues that prevent
-                      you from fasting food, or if you wish to refocus certain
-                      areas of your life that are out of balance.
-                    </p>
-                    <p>
-                      For example, you might choose to stop using social media
-                      or watching television for the duration of the fast and
-                      then carefully bring that element back into your life in
-                      healthy doses at the conclusion of the fast.
-                    </p>
+                </div>
+                <div class="col-6 p-4">
+                  <div class="card rounded-4 border border-dark border-3 p-5">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <div class="card-title pb-2">
+                          <h2 class="h2 fw-bold">Partial Fast</h2>
+                        </div>
+                        <div class="card-text fs-4">
+                          This fast is sometimes called the “Jewish Fast” and
+                          involves abstaining from eating any type of food in
+                          the morning and afternoon. This can either correlate
+                          to specific times of the day, such as 6:00 am to 3:00
+                          pm, or from sunup to sundown.
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -647,12 +654,12 @@
     </section>
 
     <section class="p-1 p-sm-4 my-5">
-      <div class="container">
+      <div class="container px-5">
         <div class="row">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
+            width="52"
+            height="52"
             fill="currentColor"
             class="bi bi-clock-fill"
             viewBox="0 0 16 16"
@@ -663,7 +670,7 @@
           </svg>
         </div>
         <div class="row mt-5">
-          <p class="display-1 text-center">
+          <p class="display-2 text-center" style="font-weight: 400">
             The timing of your fast is not as important as the strength of your
             focus on God as you fast.
           </p>
@@ -674,7 +681,7 @@
     <section class="p-1 p-sm-4 mt-5">
       <div class="container mt-5">
         <div class="row">
-          <div class="col fs-3 me-5">
+          <div class="col me-5" style="font-size: 30px; font-weight: 500">
             <p>
               We encourage fasting for 21 days each year in the month of
               January. This is part of our 21 Days of Prayer and Fasting season.
@@ -957,6 +964,12 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous"
+      async
     ></script>
   </body>
 </html>

@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(220, 229, 237);
 }
@@ -61,7 +67,7 @@ body {
 }
 
 /* FASTING PAGE */
-.asterisk {
+.star {
   width: auto;
   height: 3rem;
 }
