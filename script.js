@@ -25,3 +25,10 @@ sidebar.addEventListener("click", () => {
 aboutSidebar.addEventListener("click", () => {
   closeNav();
 });
+
+const masonryCards = document.getElementById("masonryCards");
+
+if (window.innerWidth >= 992) {
+  console.log("I'm less than 991");
+  masonryCards.dataset.masonry = '{"percentPosition": true }';
+}
