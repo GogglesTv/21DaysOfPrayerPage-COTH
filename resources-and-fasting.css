@@ -83,6 +83,10 @@ div.fasting-scriptures > div > svg {
   width: 1.5rem;
 }
 
+.fasting-and-prayer {
+  font-size: 34px;
+}
+
 /* RESOURCES PAGE */
 .our-hope {
   font-size: 60px;
@@ -232,6 +236,10 @@ button.btn:hover {
     font-size: 4rem;
   }
 
+  .fasting-and-prayer {
+    font-size: 30px;
+  }
+
   /* RESOURCES PAGE */
   img#prayerGuide {
     height: 19rem;
@@ -297,6 +305,10 @@ button.btn:hover {
 
   .fast-timing {
     font-size: 2.5rem;
+  }
+
+  .fasting-and-prayer {
+    font-size: 30px;
   }
 
   /* RESOURCES PAGE */
@@ -395,6 +407,10 @@ button.btn:hover {
     font-size: 2.75rem;
   }
 
+  .fasting-and-prayer {
+    font-size: 30px;
+  }
+
   /* RESOURCES PAGE */
   #resourcesCard,
   #fastingCard {
@@ -450,6 +466,10 @@ button.btn:hover {
     height: 27rem;
     width: 32rem;
     object-fit: cover;
+  }
+
+  .fasting-and-prayer {
+    font-size: 26px;
   }
 
   /* RESOURCES PAGE */
@@ -529,6 +549,10 @@ button.btn:hover {
 
   .fast-timing {
     font-size: 2.75rem;
+  }
+
+  .fasting-and-prayer {
+    font-size: 24px;
   }
 
   /* RESOURCES PAGE */
