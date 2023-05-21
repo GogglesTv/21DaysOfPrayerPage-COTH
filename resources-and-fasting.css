@@ -232,6 +232,10 @@ button.btn:hover {
     object-fit: cover;
   }
 
+  .fast-timing {
+    font-size: 4rem;
+  }
+
   /* RESOURCES PAGE */
   img#prayerGuide {
     height: 19rem;
@@ -293,6 +297,10 @@ button.btn:hover {
     height: 45rem;
     width: 28rem;
     object-fit: cover;
+  }
+
+  .fast-timing {
+    font-size: 2.5rem;
   }
 
   /* RESOURCES PAGE */
@@ -385,6 +393,10 @@ button.btn:hover {
     height: 27rem;
     width: 44rem;
     object-fit: cover;
+  }
+
+  .fast-timing {
+    font-size: 2.75rem;
   }
 
   /* RESOURCES PAGE */
@@ -517,6 +529,10 @@ button.btn:hover {
     height: 27rem;
     width: 33rem;
     object-fit: cover;
+  }
+
+  .fast-timing {
+    font-size: 2.75rem;
   }
 
   /* RESOURCES PAGE */
