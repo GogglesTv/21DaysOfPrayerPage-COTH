@@ -102,12 +102,14 @@ img#prayerGuide {
 #morePrayerGuides > .card,
 .rowOfPrayers > .col > .card,
 .prayer-fasting,
-.fasting-scriptures-container {
+.fasting-scriptures-container,
+.bill-bright {
   transition: transform 0.25s, background 0.25s;
 }
 
 #personalPrayerGuide > .card:hover,
-.fasting-scriptures-container:hover {
+.fasting-scriptures-container:hover,
+.bill-bright:hover {
   transform: scale(1.05);
   position: relative;
   z-index: 1;
