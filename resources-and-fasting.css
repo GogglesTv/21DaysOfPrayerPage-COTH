@@ -217,6 +217,12 @@ button.btn:hover {
   object-position: 30% 70%;
 }
 
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .hidden {
   display: none;
 }
