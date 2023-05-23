@@ -88,7 +88,6 @@ img.pray {
 #stage {
   height: 350px;
   width: 350px;
-  margin-left: 10rem;
   margin-top: -3rem;
 }
 
@@ -117,6 +116,10 @@ img.pray {
   height: 45px;
   width: 250px;
   font-size: 18px;
+}
+
+#appStores > svg {
+  fill: white;
 }
 
 #appDescription {
@@ -158,12 +161,10 @@ button.btn:hover {
   display: none;
 }
 
-#footerMiddle > div > div {
-  font-size: 23px;
-}
-
-#footerRight > div > div > p {
-  font-size: 21px;
+#footerMiddle > div > div > a:hover,
+#footerRight > div > div > a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {

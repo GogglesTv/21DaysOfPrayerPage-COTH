@@ -144,8 +144,8 @@ img#prayerGuide {
 }
 
 #appStores {
-  height: 60px;
-  width: 22rem;
+  height: 55px;
+  width: 19rem;
 }
 
 button.btn:hover {
@@ -230,6 +230,11 @@ a:hover {
 #contactUs {
   height: 60px;
   width: 200px;
+}
+
+#footerMiddle > div > div > a:hover,
+#footerRight > div > div > a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
