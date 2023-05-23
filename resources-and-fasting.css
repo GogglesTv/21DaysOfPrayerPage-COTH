@@ -83,6 +83,10 @@ div.fasting-scriptures > div > svg {
   width: 1.5rem;
 }
 
+.scripture {
+  font-size: 22px;
+}
+
 .fasting-and-prayer {
   font-size: 34px;
 }
